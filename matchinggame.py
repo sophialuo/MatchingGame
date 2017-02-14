@@ -311,3 +311,7 @@ class MatchingGame():
         
         print("Nice work!")   
         print("Duration: " + self.to_time(end-start))
+
+#play the game!
+m = MatchingGame()
+m.__main__()
